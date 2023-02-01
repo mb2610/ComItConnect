@@ -1,0 +1,136 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\BAKER\\Documents\\source\\Identity\\ComItConnect\\src\\ComItConnect.Admin.EntityFramework.PostgreSQL\\ComItConnect.Admin.EntityFramework.PostgreSQL.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\BAKER\\Documents\\source\\Identity\\ComItConnect\\src\\ComItConnect.Admin.EntityFramework.PostgreSQL\\ComItConnect.Admin.EntityFramework.PostgreSQL.csproj": {
+      "version": "2.1.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\BAKER\\Documents\\source\\Identity\\ComItConnect\\src\\ComItConnect.Admin.EntityFramework.PostgreSQL\\ComItConnect.Admin.EntityFramework.PostgreSQL.csproj",
+        "projectName": "ComItConnect.Admin.EntityFramework.PostgreSQL",
+        "projectPath": "C:\\Users\\BAKER\\Documents\\source\\Identity\\ComItConnect\\src\\ComItConnect.Admin.EntityFramework.PostgreSQL\\ComItConnect.Admin.EntityFramework.PostgreSQL.csproj",
+        "packagesPath": "C:\\Users\\BAKER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\BAKER\\Documents\\source\\Identity\\ComItConnect\\src\\ComItConnect.Admin.EntityFramework.PostgreSQL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\BAKER\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\BAKER\\Documents\\source\\Identity\\ComItConnect\\src\\ComItConnect.Admin.EntityFramework.Shared\\ComItConnect.Admin.EntityFramework.Shared.csproj": {
+                "projectPath": "C:\\Users\\BAKER\\Documents\\source\\Identity\\ComItConnect\\src\\ComItConnect.Admin.EntityFramework.Shared\\ComItConnect.Admin.EntityFramework.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\BAKER\\Documents\\source\\Identity\\ComItConnect\\src\\ComItConnect.Admin.EntityFramework.Shared\\ComItConnect.Admin.EntityFramework.Shared.csproj": {
+      "version": "2.1.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\BAKER\\Documents\\source\\Identity\\ComItConnect\\src\\ComItConnect.Admin.EntityFramework.Shared\\ComItConnect.Admin.EntityFramework.Shared.csproj",
+        "projectName": "ComItConnect.Admin.EntityFramework.Shared",
+        "projectPath": "C:\\Users\\BAKER\\Documents\\source\\Identity\\ComItConnect\\src\\ComItConnect.Admin.EntityFramework.Shared\\ComItConnect.Admin.EntityFramework.Shared.csproj",
+        "packagesPath": "C:\\Users\\BAKER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\BAKER\\Documents\\source\\Identity\\ComItConnect\\src\\ComItConnect.Admin.EntityFramework.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\BAKER\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.DataProtection.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Skoruba.AuditLogging.EntityFramework": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Skoruba.IdentityServer4.Admin.EntityFramework.Configuration": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

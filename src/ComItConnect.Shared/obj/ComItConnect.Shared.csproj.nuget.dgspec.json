@@ -1,0 +1,94 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\BAKER\\Documents\\source\\Identity\\ComItConnect\\src\\ComItConnect.Shared\\ComItConnect.Shared.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\BAKER\\Documents\\source\\Identity\\ComItConnect\\src\\ComItConnect.Shared\\ComItConnect.Shared.csproj": {
+      "version": "2.1.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\BAKER\\Documents\\source\\Identity\\ComItConnect\\src\\ComItConnect.Shared\\ComItConnect.Shared.csproj",
+        "projectName": "ComItConnect.Shared",
+        "projectPath": "C:\\Users\\BAKER\\Documents\\source\\Identity\\ComItConnect\\src\\ComItConnect.Shared\\ComItConnect.Shared.csproj",
+        "packagesPath": "C:\\Users\\BAKER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\BAKER\\Documents\\source\\Identity\\ComItConnect\\src\\ComItConnect.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\BAKER\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Azure.Extensions.AspNetCore.DataProtection.Keys": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Azure.Identity": {
+              "target": "Package",
+              "version": "[1.5.0, )"
+            },
+            "Azure.Security.KeyVault.Certificates": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "Microsoft.AspNetCore.DataProtection.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.AzureKeyVault": {
+              "target": "Package",
+              "version": "[3.1.22, )"
+            },
+            "Sendgrid": {
+              "target": "Package",
+              "version": "[9.25.2, )"
+            },
+            "Skoruba.IdentityServer4.Admin.BusinessLogic.Identity": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
